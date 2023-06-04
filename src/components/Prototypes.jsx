@@ -1,5 +1,7 @@
-import useActions from "../hooks/useActions";
+// components/Prototypes.jsx
+
 import usePrototypes from "../hooks/usePrototypes";
+import useActions from "../hooks/useActions";
 
 export default function Prototypes() {
   const prototypes = usePrototypes();
@@ -25,10 +27,10 @@ export default function Prototypes() {
                     loop
                     playsInline
                     className="prototype__artwork prototype__edit"
-                    src={thumbnail}
                     style={{
                       objectFit: "contain",
                     }}
+                    src={thumbnail}
                   />
                 </div>
               </a>
